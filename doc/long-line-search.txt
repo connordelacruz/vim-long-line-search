@@ -1,0 +1,16 @@
+*long-line-search.txt*
+                                                            *long-line-search*
+
+==============================================================================
+CONTENTS                                           *long-line-search-contents*
+  1. Commands......................................|long-line-search-commands|
+
+==============================================================================
+COMMANDS                                           *long-line-search-commands*
+
+:LongLineSearch [length]                                     *:LongLineSearch*
+  Search for lines longer than [length] and jump to first match.
+  [length] is 80 if omitted.
+
+
+vim:tw=78:ts=8:ft=help:norl:
