@@ -1,5 +1,8 @@
-
 # LongLineSearch
 
-**TODO:** document
+## TODO:
+
+- Add doc/
+- Add configuration for default line length
+- Document in README
 
