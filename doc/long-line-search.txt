@@ -3,14 +3,21 @@
 
 ==============================================================================
 CONTENTS                                           *long-line-search-contents*
-  1. Commands......................................|long-line-search-commands|
+  1. Configuration...................................|long-line-search-config|
+  2. Commands......................................|long-line-search-commands|
+
+==============================================================================
+CONFIGURATION                                        *long-line-search-config*
+
+                                                *g:LongLineSeachDefaultLength*
+Default line length to use for |:LongLineSearch| when no arguments are passed
 
 ==============================================================================
 COMMANDS                                           *long-line-search-commands*
 
 :LongLineSearch [length]                                     *:LongLineSearch*
   Search for lines longer than [length] and jump to first match.
-  [length] is 80 if omitted.
+  [length] is |g:LongLineSeachDefaultLength| if omitted.
 
 
 vim:tw=78:ts=8:ft=help:norl:

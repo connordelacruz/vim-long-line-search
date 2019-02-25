@@ -1,5 +1,7 @@
 :LongLineSearch	long-line-search.txt	/*:LongLineSearch*
+g:LongLineSeachDefaultLength	long-line-search.txt	/*g:LongLineSeachDefaultLength*
 long-line-search	long-line-search.txt	/*long-line-search*
 long-line-search-commands	long-line-search.txt	/*long-line-search-commands*
+long-line-search-config	long-line-search.txt	/*long-line-search-config*
 long-line-search-contents	long-line-search.txt	/*long-line-search-contents*
 long-line-search.txt	long-line-search.txt	/*long-line-search.txt*
