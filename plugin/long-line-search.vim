@@ -3,8 +3,6 @@
 " Author: Connor de la Cruz <github.com/connordelacruz>
 " ==============================================================================
 
-" TODO: namespacing and organization
-
 if !exists('g:LongLineSeachDefaultLength')
     ""
     " Default line length to use for @command(LongLineSearch) when no
