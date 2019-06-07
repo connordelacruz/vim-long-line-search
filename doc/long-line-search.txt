@@ -11,6 +11,7 @@ CONFIGURATION                                        *long-line-search-config*
 
                                                 *g:LongLineSeachDefaultLength*
 Default line length to use for |:LongLineSearch| when no arguments are passed
+and textwidth is not set for the current filetype
 
 ==============================================================================
 COMMANDS                                           *long-line-search-commands*

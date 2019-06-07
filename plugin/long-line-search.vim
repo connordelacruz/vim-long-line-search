@@ -6,7 +6,7 @@
 if !exists('g:LongLineSeachDefaultLength')
     ""
     " Default line length to use for @command(LongLineSearch) when no
-    " arguments are passed
+    " arguments are passed and textwidth is not set for the current filetype
     let g:LongLineSeachDefaultLength = 80
 endif
 
@@ -16,7 +16,9 @@ endif
 " @default length=@setting(LongLineSeachDefaultLength)
 function! LongLineSearch(...)
     if a:0 < 1
-        let lineSize = g:LongLineSeachDefaultLength
+        " If textwidth not set and line size not specified, default to
+        " configured value
+        let lineSize = &textwidth ? &textwidth : g:LongLineSeachDefaultLength
     else
         let lineSize = a:1
     endif
